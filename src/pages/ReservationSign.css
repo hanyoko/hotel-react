@@ -1,0 +1,74 @@
+.reserveSign {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.reserveCumtomer {
+    width: 65%;
+    padding: 20px;
+}
+
+.reserveCumtomer h3 {
+    font-size: 22px;
+    font-weight: normal;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+}
+
+.reserveCumtomer textarea {
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    background: #eee;
+}
+
+.reserveInfo {
+    width: 30%;
+    border: 1px solid #333;
+    border-top-width: 3px;
+}
+
+.reserveInfo h3 {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+    font-size: 18px;
+}
+
+.reserveInfo ul {
+    padding: 20px;
+}
+
+.reserveInfo ul li {
+    padding: 10px 0;
+}
+
+.reserveInfo ul li span:nth-child(1) {
+    width: 50%;
+}
+
+.reserveInfo ul li span:nth-child(2) {
+    float: right;
+}
+
+.reserveInfo>div {
+    padding: 20px;
+    display: flex;
+    border-top: 1px solid #333;
+    justify-content: space-between;
+}
+
+.reserveInfo .totalPrice div:nth-child(1) {
+    width: 30%;
+
+}
+
+.reserveInfo .totalPrice .price {
+    padding: 0;
+}
+
+.reserveInfo button {
+    width: 100%;
+    padding: 20px 0;
+}

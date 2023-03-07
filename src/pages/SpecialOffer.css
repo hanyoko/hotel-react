@@ -1,0 +1,62 @@
+.special {
+    background: #eee;
+    padding: 80px 0;
+}
+.special h2 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+.special h2 span {
+    font-size: 38px;
+}
+.special ul {
+    display: flex;
+    justify-content: space-between;
+}
+.special ul li {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.1);
+}
+.special ul li img {
+    width: 100%;
+}
+.special ul li .textdiv {
+    padding: 20px;
+    text-align: center;
+}
+.special h3 {
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.special ul li p {
+    padding-bottom: 16px;
+}
+.specialpage ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.specialpage ul li {
+    width: 49%;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.specialpage ul li img {
+    width: 100%;
+}
+.specialpage ul li .textdiv {
+    padding: 20px 20px 10px;
+    line-height: 36px;
+}
+.specialpage ul li h3 {
+    font-size: 18px;
+}
+.specialpage ul li p {
+    padding-bottom: 30px;
+}
+.specialpage ul li .textdiv div {
+    border-top: 1px solid #eee;
+}

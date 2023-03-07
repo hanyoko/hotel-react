@@ -1,0 +1,36 @@
+.mainpro {
+    padding: 80px 0;
+    display: flex;
+}
+.mainpro > div {
+    width: 50%;
+}
+.mainpro > div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.mainpro .text {
+    padding: 60px 40px;
+    position: relative;
+}
+.mainpro .text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 5px;
+    left: 0;
+    top: 170px;
+    background-color: #222;
+}
+.mainpro .text h3 {
+    font-size: 38px;
+    font-weight: normal;
+}
+.mainpro .text p {
+    padding-bottom: 30px;
+}
+.mainpro .text div {
+    padding: 30px 0;
+}

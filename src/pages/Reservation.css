@@ -1,0 +1,58 @@
+.reservsearch {
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    display: flex;
+    text-align: center;
+}
+
+.reservsearch>li {
+    padding: 20px 0;
+}
+
+.reservsearch>li:nth-child(1) {
+    width: 46%;
+    display: flex;
+    position: relative;
+}
+
+.reservsearch>li:not(:nth-child(1)) {
+    width: 19%;
+}
+
+.reservsearch>li:not(:last-child)>div {
+    border-right: 1px solid #ddd;
+    width: 100%;
+}
+
+.reservsearch>li:last-child {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservsearch>li>div>span {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.reservsearch input,
+.reservsearch select {
+    height: 40px;
+    outline: none;
+    border: none;
+    background: #eee;
+    padding: 0 20px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.reservsearch>li>div.calendar {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    border-right: none;
+}

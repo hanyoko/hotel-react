@@ -1,0 +1,40 @@
+.roomlist {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.roomlist:nth-child(1) {
+    border-top: 3px solid #333;
+}
+.roomlist img {
+    width: 100%;
+}
+.roomlist > div {
+    padding: 16px;
+}
+.roomlist > div:nth-child(1) {
+    width: 30%;
+}
+.roomlist > div:nth-child(2) {
+    width: 40%;
+}
+.roomlist > div:nth-child(3) {
+    width: 30%;
+    text-align: right;
+}
+.roomlist h3 {
+    font-size: 26px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.price {
+    font-size: 48px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.price span {
+    font-size: 14px;
+}
+
+

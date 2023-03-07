@@ -1,0 +1,25 @@
+.roomdetail img {
+    width: 100%;
+}
+.roomtitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.roomtitle h3 {
+    font-size: 28px;
+    font-weight: normal;
+}
+.roominfo {
+    border-top: 1px solid #333;
+}
+.roominfo > li {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    display: flex;
+}
+.roominfo > li h4 {
+    width: 30%;
+    max-width: 160px;
+    font-size: 18px;
+}

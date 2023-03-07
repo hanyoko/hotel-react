@@ -1,0 +1,45 @@
+* { padding: 0; margin: 0; box-sizing: border-box;}
+li { list-style: none;}
+body {
+  color: #444;
+  font-family: "맑은고딕", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color:inherit;
+}
+.inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table td{
+  padding: 10px;
+}
+input[type='text'] {
+  width: 100%;
+  line-height: 32px;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  margin: 4px 0;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 6px 30px;
+  margin-right: 8px;
+}
+.defaulttable td {
+  border-bottom: 1px solid #eee;
+}
+#login table {
+  max-width: 700px;
+  margin: 0 auto;
+}
